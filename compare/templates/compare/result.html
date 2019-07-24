@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Your Results</h1>
+    {{ all_result }}
+    <p>Total Word Count: {{ all_result.total_word_count }}</p>
+    <p>Mistake Count: {{ all_result.mistake_count }}</p>
+    <p>Correct Word Count: {{ all_result.correct_word_count }}</p>
+    <p>Missing Words: {{ all_result.missing_words }}</p>
+    <p>Misspelled Words: {{ all_result.misspelled_words }}</p>
+
+    <a href="/">Home</a>
+
+    Post data: {{ all_result.user_post_on_form }}
+
+
+
+</body>
+</html>

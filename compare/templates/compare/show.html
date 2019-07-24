@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Competition is started</title>
+</head>
+<body>
+    <h1>Aşağıdaki metni giriniz!</h1>
+    <img src="https://i.ibb.co/bzZqhBT/text.png" alt="text" border="0">
+
+    <form action="../result/" method="POST">
+        {% csrf_token %}
+        <textarea name="user_input" id="" cols="100" rows="15"></textarea><br>
+        <input type="submit" name="" id="" value="Send">
+    </form>
+</body>
+</html>
