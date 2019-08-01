@@ -1,7 +1,7 @@
-diff --git a/original.txt b/original.txt
+diff --git a/compare/original.txt b/compare/original.txt
 index 4f7a6bf..bf929c6 100644
---- a/original.txt
-+++ b/original.txt
+--- a/compare/original.txt
++++ b/compare/original.txt
 @@ -30,16 +30,14 @@ Web
  development,
  so
