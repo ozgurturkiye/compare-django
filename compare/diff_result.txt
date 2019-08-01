@@ -1,26 +1,57 @@
 diff --git a/compare/original.txt b/compare/original.txt
-index 4f7a6bf..bf929c6 100644
+index 4f7a6bf..41e7e61 100644
 --- a/compare/original.txt
 +++ b/compare/original.txt
-@@ -30,16 +30,14 @@ Web
- development,
- so
- you
+@@ -1,49 +1,6 @@
+ Django
+ is
+ a
+-high-level
+-Python
+-Web
+-framework
+-that
+-encourages
+-rapid
+-development
+-and
+-clean,
+-pragmatic
+-design.
+-Built
+-by
+-experienced
+-developers,
+-it
+-takes
+-care
+-of
+-much
+-of
+-the
+-hassle
+-of
+-Web
+-development,
+-so
+-you
 -can
 -focus
 -on
 -writing
-+cang
- your
- app
+-your
+-app
 -without
-+widgfdfthout
- needing
- to
+-needing
+-to
 -reinvent
-+rei
-+dfsnvent
- the
- wheel.
- It’s
-49
+-the
+-wheel.
+-It’s
+-free
+-and
+-open
+-source.
++kdkdkddk
++hatalar
++hatalarrr..
