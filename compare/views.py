@@ -13,7 +13,7 @@ def show(request):
 
 def result(request):
 
-    with open("compare/originaş.txt") as f:
+    with open("compare/original.txt") as f:
         total_word_count = len(f.readlines())
 
 
