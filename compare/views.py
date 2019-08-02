@@ -71,9 +71,6 @@ def result(request):
     
     write_user_input_to_file()
     write_diff_to_file()
-
-    #total_word_count = make_original_text_to_lined()
-    #make_user_text_to_lined()
     all_result = show_result()
 
     return render(request, 'compare/result.html', {'all_result': all_result})

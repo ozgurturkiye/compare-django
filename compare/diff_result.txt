@@ -1,56 +1,27 @@
 diff --git a/compare/original.txt b/compare/original.txt
-index 4f7a6bf..1157d11 100644
+index 1157d11..7a20418 100644
 --- a/compare/original.txt
 +++ b/compare/original.txt
-@@ -1,49 +1,14 @@
+@@ -1,14 +1,12 @@
  Django
  is
  a
--high-level
- Python
- Web
- framework
- that
--encourages
--rapid
--development
--and
--clean,
--pragmatic
--design.
--Built
--by
--experienced
--developers,
--it
--takes
--care
--of
--much
--of
--the
--hassle
--of
+-Python
 -Web
--development,
--so
--you
--can
--focus
--on
--writing
--your
-+hatalar
-+hatalaaa
- app
- without
- needing
- to
- reinvent
--the
--wheel.
--It’s
--free
--and
--open
--source.
+-framework
++high-level
+ that
+-hatalar
+-hatalaaa
+-app
+-without
+-needing
+-to
+-reinvent
++encourages
++ripid
++dvelettmen
++It's
++free
++and
++open
