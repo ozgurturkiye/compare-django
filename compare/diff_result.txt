@@ -1,27 +1,55 @@
 diff --git a/compare/original.txt b/compare/original.txt
-index 1157d11..7a20418 100644
+index 4f7a6bf..d404ef9 100644
 --- a/compare/original.txt
 +++ b/compare/original.txt
-@@ -1,14 +1,12 @@
- Django
- is
- a
+@@ -1,49 +1,4 @@
+-Django
+-is
+-a
+-high-level
 -Python
--Web
--framework
-+high-level
++Who
+ Web
+ framework
  that
--hatalar
--hatalaaa
+-encourages
+-rapid
+-development
+-and
+-clean,
+-pragmatic
+-design.
+-Built
+-by
+-experienced
+-developers,
+-it
+-takes
+-care
+-of
+-much
+-of
+-the
+-hassle
+-of
+-Web
+-development,
+-so
+-you
+-can
+-focus
+-on
+-writing
+-your
 -app
 -without
 -needing
 -to
 -reinvent
-+encourages
-+ripid
-+dvelettmen
-+It's
-+free
-+and
-+open
+-the
+-wheel.
+-It’s
+-free
+-and
+-open
+-source.
