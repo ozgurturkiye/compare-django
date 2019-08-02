@@ -36,6 +36,7 @@ def result(request):
         missing_words = []  # These words are in the original text but didn't write -
         misspelled_words = []  # These words aren't in the original text but have written +
         mistake_count = 0  # Just missing_words will be added
+        correct_words = []
 
         # Open git diff results
         with open("compare/diff_result.txt") as f:
@@ -50,6 +51,10 @@ def result(request):
                 # These words didn't count as mistake
                 misspelled_words.append(line[1:-1])
 
+            if line[0] == " ":
+                # Correct word
+                correct_words.append(line[1:-1])
+
         correct_word_count = total_word_count - mistake_count
 
         all_result = {"total_word_count": total_word_count,
@@ -57,13 +62,10 @@ def result(request):
                     "correct_word_count": correct_word_count,
                     "missing_words" : missing_words,
                     "misspelled_words" : misspelled_words,
+                    "correct_words": correct_words,
         }
 
-        #os.chdir('compare')                
-        # os.system('git checkout .')
-        os.system('git add .')
-        os.system('git commit -m "last commit"')
-        #os.chdir('..')                
+        os.system('git checkout compare/original.txt')
 
         return all_result
     
